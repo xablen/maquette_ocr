@@ -1,0 +1,15 @@
+body { 
+   background-image: url("../images/partie1.png"); 
+   background-position: top;
+   background-repeat: no-repeat;
+}
+
+.no-padding > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.img-logo {
+	position: relative;
+	max-width: 650px;
+}
