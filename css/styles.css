@@ -1,3 +1,15 @@
+/* Général */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+
 body { 
    background-image: url("../images/partie1.png"); 
    background-position: top;
@@ -9,7 +21,23 @@ body {
     padding-left:0;
 }
 
+p {
+	font-family: 'OpenSans', Arial, serif;
+	color: white;
+}
+
+h1 {
+	font-family: 'OpenSans-Light', Arial, serif !important;
+	color: white !important;
+}
+
+
+/* Ecran normal */
+
+#section_one .container .col-md-4 {
+	margin-left: 500px;
+}
+
 .img-logo {
-	position: relative;
-	max-width: 650px;
+	height: 850px;
 }
