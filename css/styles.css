@@ -19,12 +19,12 @@
     src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 
-
-
 body { 
    background-image: url("../images/partie1.png"); 
    background-position: top;
    background-repeat: no-repeat;
+   margin: 0px;
+   padding: 0px;
 }
 
 .no-padding > [class*='col-'] {
@@ -148,12 +148,11 @@ background-image: url("../images/img2.png");
 
 /*Section 5 : Grande photo */
 
-#big_picture {
+.fond_big_picture {
     background-image: url("../images/img3.png");
     background-repeat: no-repeat;
     height: 1276px;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 
@@ -211,3 +210,10 @@ background-image: url("../images/img2.png");
 	padding-left: 0;
 }
 
+/*Section 7 : Gammes de prix */
+
+#price_ranges .container  .right {
+    margin-top: -20px;
+	background-color: #f6f7fa;
+	height: 120px;
+}
