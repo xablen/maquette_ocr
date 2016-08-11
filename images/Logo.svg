@@ -1,20 +1,16 @@
-<svg id="Logo.svg" xmlns="http://www.w3.org/2000/svg" width="92" height="41" viewBox="0 0 92 41">
-  <defs>
-    <style>
-      .cls-1 {
-        font-size: 24px;
-        font-family: Merriweather-HeavyItalic, Merriweather;
-      }
-
-      .cls-1, .cls-2 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <text id="take.svg" class="cls-1" transform="translate(50.089 26.552) scale(0.873 0.867)">take</text>
-  <path id="Shape_5.svg" data-name="Shape 5.svg" class="cls-2" d="M336.5,56A20.5,20.5,0,1,0,357,76.5,20.524,20.524,0,0,0,336.5,56Zm0,37.835A17.334,17.334,0,1,1,353.834,76.5,17.353,17.353,0,0,1,336.5,93.834Zm0-25.223a7.889,7.889,0,1,0,7.889,7.889A7.9,7.9,0,0,0,336.5,68.611Zm0,12.611a4.722,4.722,0,1,1,4.722-4.722A4.728,4.728,0,0,1,336.5,81.222Z" transform="translate(-316 -56)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-273 220 94.3 41" style="enable-background:new -273 220 94.3 41;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'Merriweather-Regular';}
+	.st2{font-size:20.808px;}
+</style>
+<text id="take.svg" transform="matrix(1.0069 0 0 1 -222.9111 246.5523)" class="st0 st1 st2">take</text>
+<path id="Shape_5.svg" class="st0" d="M-252.5,220c-11.3,0-20.5,9.2-20.5,20.5s9.2,20.5,20.5,20.5s20.5-9.2,20.5-20.5
+	C-232,229.2-241.2,220-252.5,220z M-252.5,257.8c-9.6,0-17.3-7.8-17.3-17.3s7.8-17.3,17.3-17.3c9.6,0,17.3,7.8,17.3,17.3
+	C-235.2,250.1-242.9,257.8-252.5,257.8L-252.5,257.8z M-252.5,232.6c-4.4,0-7.9,3.5-7.9,7.9c0,4.4,3.5,7.9,7.9,7.9
+	c4.4,0,7.9-3.5,7.9-7.9C-244.6,236.1-248.1,232.6-252.5,232.6L-252.5,232.6z M-252.5,245.2c-2.6,0-4.7-2.1-4.7-4.7
+	c0-2.6,2.1-4.7,4.7-4.7c2.6,0,4.7,2.1,4.7,4.7c0,0,0,0,0,0C-247.8,243.1-249.9,245.2-252.5,245.2L-252.5,245.2z"/>
 </svg>

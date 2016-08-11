@@ -9,6 +9,17 @@
     src: url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+
 
 body { 
    background-image: url("../images/partie1.png"); 
@@ -37,10 +48,6 @@ body {
 
 #section_one .container .col-md-4 {
 	margin-left: 500px;
-}
-
-.img-logo {
-	height: 850px;
 }
 
 /*Section 2 : Description */
@@ -89,6 +96,11 @@ body {
 	height: 275px;
 }
 
+.bold {
+	color: white !important;
+	font-family: 'OpenSans-Bold', Arial, serif !important;	
+}
+
 .pink {
 background-color: #d996ac;
 }
@@ -116,6 +128,86 @@ background-image: url("../images/img2.png");
 	padding-left: 0px;
 }
 
+#details h6 {
+	font-family: 'OpenSans-Semibold', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+#details p {
+	font-family: 'OpenSans', Arial, serif !important;	
+	padding-left: 0px;
+}
+
 #details .container .col-md-4  {
+	padding-left: 0px;
+}
+
+#details .container .col-md-3  {
+	padding-left: 0px;
+}
+
+/*Section 5 : Grande photo */
+
+#big_picture {
+    background-image: url("../images/img3.png");
+    background-repeat: no-repeat;
+    height: 1276px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#big_picture h1 {
+	color: white !important;
+	font-family: 'OpenSans-Light', Arial, serif !important;	
+	margin-left: 0px;
+	font-size: 60px;
+}
+
+#big_picture p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+#big_picture .container .col-md-12{
+	margin-top: 800px;
+	padding: 0;
+}
+
+
+/*Section 6 : A propos */
+
+#about {
+	margin-top: -20px;
+    background-color: #82ca9c;
+    height: 553px;
+}
+
+#about h1 {
+	color: white !important;
+	font-family: 'OpenSans-Light', Arial, serif !important;	
+}
+
+#about h6 {
+	color: white !important;
+	font-family: 'OpenSans-Semibold', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+#about p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+#about .container .col-md-6 {
+	margin-top: 125px;
+	padding: 0;
+}
+
+#about .container .col-md-4 {
+	margin-top: 90px;
 	padding-left: 0;
 }
+
