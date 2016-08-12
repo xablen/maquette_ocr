@@ -19,12 +19,24 @@
     src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 
-body { 
+@font-face {
+    font-family: 'OpenSans-Extrabold';
+    src: url('../fonts/OpenSans-Extrabold.ttf') format('truetype');
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x:hidden;
+}
+
+#fond1 { 
    background-image: url("../images/partie1.png"); 
    background-position: top;
    background-repeat: no-repeat;
-   margin: 0px;
+   margin-top: -30px;
    padding: 0px;
+   width: 100%;
 }
 
 .no-padding > [class*='col-'] {
@@ -148,7 +160,7 @@ background-image: url("../images/img2.png");
 
 /*Section 5 : Grande photo */
 
-.fond_big_picture {
+#big_picture {
     background-image: url("../images/img3.png");
     background-repeat: no-repeat;
     height: 1276px;
@@ -210,10 +222,130 @@ background-image: url("../images/img2.png");
 	padding-left: 0;
 }
 
-/*Section 7 : Gammes de prix */
+/* Section 7 : Gammes de prix */
 
-#price_ranges .container  .right {
+#price_ranges .container  .right1 {
     margin-top: -20px;
+    margin-bottom: 42px;
 	background-color: #f6f7fa;
 	height: 120px;
 }
+
+#price_ranges .container  .right2 {
+    margin-top: 42px;
+	background-color: #f6f7fa;
+	height: 180px;
+}
+
+#price_ranges .container .taupe {
+	background-color: #e1e1e1;
+    padding: 7px 16px 7px 16px;
+	border-radius:7px;
+	width: 77px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+#price_ranges .container .purple {
+	background-color: #a98cc9;
+    padding: 7px 16px 7px 16px;
+	border-radius:7px;
+	width: 130px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+#price_ranges .container .green {
+	background-color: #82ca9c;
+    padding: 17px 16px 17px 16px;
+	border-radius:7px;
+	width: 155px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+#price_ranges .col-md-6 {
+	padding-left: 50px;
+}
+
+#price_ranges h1 {
+	font-family: 'OpenSans-Light', Arial, serif !important;	
+}
+
+#price_ranges p {
+	color: #8297a7;
+	font-family: 'OpenSans', Arial, serif !important;	
+}
+
+.fa-apple {
+	margin-right: 17px;
+}
+
+footer {
+	margin-top: -40px;
+	background-color: #1e3450;	
+	height: 650px;
+}
+
+/* Pied de page */
+
+input[type=email]  {
+ border: none;
+ height: 60px;
+ width: 400px;
+ }
+
+input[type=submit]  {
+ background-color:#82ca9c;
+ width:70px;
+ border: none;
+ height: 60px;
+ }
+
+ .valider {
+  background-image:url("../images/valider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+footer.container .col-md-6 {
+	margin-top: 125px;
+    padding-left: 0;
+}
+
+footer  .container .col-md-4 {
+	margin-top: 90px;
+	padding-left: 0;
+}
+
+footer .container .col-md-6 h6 {
+	margin-top: 90px;
+}
+
+footer .container .col-md-6 h6 {
+	color: white !important;
+	font-family: 'OpenSans-Semibold', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+footer .container .col-md-6 p {
+	color: white;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+footer .container .col-md-4 p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+.bleumarine {
+   color: #57697f !important;
+   font-family: 'OpenSans', Arial, serif !important;	
+   margin-left: 0px;
+}
+
