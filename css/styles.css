@@ -102,7 +102,110 @@ background-repeat: no-repeat;
     text-align: center;
 }
 
-/* Styles pour les écrans de taille moyenne */
+/*Section 5 : Grande photo */
+
+#big_picture {
+    background-image: url("../images/img3.png");
+    background-repeat: no-repeat;
+    height: 1276px;
+    padding: 0px;
+}
+
+#big_picture h1 {
+	color: white !important;
+	font-family: 'OpenSans-Light', Arial, serif !important;	
+	margin-left: 0px;
+	font-size: 60px;
+}
+
+#big_picture p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+/*Section 6 : A propos */
+
+#about {
+	margin-top: -20px;
+    background-color: #82ca9c;
+    height: 553px;
+}
+
+#about h1 {
+	color: white !important;
+	font-family: 'OpenSans-Light', Arial, serif !important;	
+}
+
+#about h6 {
+	color: white !important;
+	font-family: 'OpenSans-Semibold', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+#about p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+/* Section 7 : Gammes de prix */
+
+#price_ranges .container .taupe {
+	background-color: #e1e1e1;
+    padding: 7px 16px 7px 16px;
+	border-radius:7px;
+	width: 77px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+#price_ranges .container .purple {
+	background-color: #a98cc9;
+    padding: 7px 16px 7px 16px;
+	border-radius:7px;
+	width: 130px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+#price_ranges .container .green {
+	background-color: #82ca9c;
+    padding: 17px 16px 17px 16px;
+	border-radius:7px;
+	width: 155px;
+	text-align: center;
+	color: white !important;
+	font-family: 'OpenSans-Extrabold',Arial, serif !important;
+}
+
+.fa-apple {
+	margin-right: 17px;
+}
+
+/* Pied de page */
+
+footer {
+	margin-top: -40px;
+	background-color: #1e3450;	
+	height: 650px;
+}
+
+footer .container h6 {
+	color: white !important;
+	font-family: 'OpenSans-Semibold', Arial, serif !important;	
+	padding-left: 0px;
+}
+
+footer .container p {
+	color: white;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+/* Styles pour les écrans de taille large et moyenne  */
 
 @media (min-width: 993px) {
 #fond1 { 
@@ -175,27 +278,6 @@ background-repeat: no-repeat;
 
 /*Section 5 : Grande photo */
 
-#big_picture {
-    background-image: url("../images/img3.png");
-    background-repeat: no-repeat;
-    height: 1276px;
-    padding: 0px;
-}
-
-
-#big_picture h1 {
-	color: white !important;
-	font-family: 'OpenSans-Light', Arial, serif !important;	
-	margin-left: 0px;
-	font-size: 60px;
-}
-
-#big_picture p {
-	color: white !important;
-	font-family: 'OpenSans', Arial, serif !important;	
-	margin-left: 0px;
-}
-
 #big_picture .container .col-md-12{
 	margin-top: 800px;
 	padding: 0;
@@ -203,29 +285,6 @@ background-repeat: no-repeat;
 
 
 /*Section 6 : A propos */
-
-#about {
-	margin-top: -20px;
-    background-color: #82ca9c;
-    height: 553px;
-}
-
-#about h1 {
-	color: white !important;
-	font-family: 'OpenSans-Light', Arial, serif !important;	
-}
-
-#about h6 {
-	color: white !important;
-	font-family: 'OpenSans-Semibold', Arial, serif !important;	
-	padding-left: 0px;
-}
-
-#about p {
-	color: white !important;
-	font-family: 'OpenSans', Arial, serif !important;	
-	padding-left: 0px;
-}
 
 #about .container .col-md-6 {
 	margin-top: 125px;
@@ -252,35 +311,6 @@ background-repeat: no-repeat;
 	height: 180px;
 }
 
-#price_ranges .container .taupe {
-	background-color: #e1e1e1;
-    padding: 7px 16px 7px 16px;
-	border-radius:7px;
-	width: 77px;
-	text-align: center;
-	color: white !important;
-	font-family: 'OpenSans-Extrabold',Arial, serif !important;
-}
-
-#price_ranges .container .purple {
-	background-color: #a98cc9;
-    padding: 7px 16px 7px 16px;
-	border-radius:7px;
-	width: 130px;
-	text-align: center;
-	color: white !important;
-	font-family: 'OpenSans-Extrabold',Arial, serif !important;
-}
-
-#price_ranges .container .green {
-	background-color: #82ca9c;
-    padding: 17px 16px 17px 16px;
-	border-radius:7px;
-	width: 155px;
-	text-align: center;
-	color: white !important;
-	font-family: 'OpenSans-Extrabold',Arial, serif !important;
-}
 
 #price_ranges .col-md-6 {
 	padding-left: 50px;
@@ -295,22 +325,12 @@ background-repeat: no-repeat;
 	font-family: 'OpenSans', Arial, serif !important;	
 }
 
-.fa-apple {
-	margin-right: 17px;
-}
-
-footer {
-	margin-top: -40px;
-	background-color: #1e3450;	
-	height: 650px;
-}
-
 /* Pied de page */
 
 input[type=email]  {
  border: none;
  height: 60px;
- width: 400px;
+ width: 320px;
  }
 
 input[type=submit]  {
@@ -340,18 +360,6 @@ footer .container .col-md-6 h6 {
 	margin-top: 90px;
 }
 
-footer .container .col-md-6 h6 {
-	color: white !important;
-	font-family: 'OpenSans-Semibold', Arial, serif !important;	
-	padding-left: 0px;
-}
-
-footer .container .col-md-6 p {
-	color: white;
-	font-family: 'OpenSans', Arial, serif !important;	
-	margin-left: 0px;
-}
-
 footer .container .col-md-4 p {
 	color: white !important;
 	font-family: 'OpenSans', Arial, serif !important;	
@@ -366,8 +374,76 @@ footer .container .col-md-4 p {
 }
 
 /* Styles pour les smartphones */
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 768px) {
 
+#fond1 { 
+   background-image: url("../images/partie1.png"); 
+   background-position: top;
+   background-repeat: no-repeat;
+   margin-top: -30px;
+   padding: 0px;
+   width: 100%;
+}
+
+/*Section 3*/
+.img-logo {
+   width: 120%;
+   padding-top: 10px;
+}
+
+#featured_content .container .col-xs-12 {
+	height: 275px;
+}
+
+#featured_content .container .col-xs-12 {
+	height: 275px;
+}
+
+.img1 {
+background-image: url("../images/img1.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+/*Section 6 : A propos */
+
+#about {
+	margin-top: -20px;
+    background-color: #82ca9c;
+    height: 460px;
+}
+
+/*Section 7 Gammes de prix*/
+
+#price_ranges img {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: -40px;
+	background-color: #1e3450;	
+	height: 460px;
+}
+
+
+input[type=email]  {
+ border: none;
+ height: 30px;
+ width: 130px;
+ }
+
+input[type=submit]  {
+ background-color:#82ca9c;
+ width:35px;
+ border: none;
+ height: 30px;
+ }
+
+.valider {
+  background-image:url("../images/valider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+ }
 
 }
 
@@ -404,4 +480,59 @@ footer .container .col-md-4 p {
 	margin-left: 40px;
 	font-size: 20px;
 }
+
+#big_picture .container .col-sm-12{
+	margin-top: 800px;
+	padding: 0;
+}
+
+/*Section 7 Gammes de prix*/
+
+#price_ranges img {
+	margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer {
+	margin-top: -40px;
+	background-color: #1e3450;	
+	height: 450px;
+}
+
+input[type=email]  {
+ border: none;
+ height: 30px;
+ width: 160px;
+ }
+
+input[type=submit]  {
+ background-color:#82ca9c;
+ width:35px;
+ border: none;
+ height: 30px;
+ }
+
+.valider {
+  background-image:url("../images/valider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+footer .container .col-sm-6 h6 {
+	margin-top: 30px;
+}
+
+footer .container .col-sm-4 p {
+	color: white !important;
+	font-family: 'OpenSans', Arial, serif !important;	
+	margin-left: 0px;
+}
+
+.bleumarine {
+   color: #57697f !important;
+   font-family: 'OpenSans', Arial, serif !important;	
+   margin-left: 0px;
+}
+
 }
