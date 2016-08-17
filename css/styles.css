@@ -30,6 +30,10 @@ body {
     overflow-x:hidden;
 }
 
+.img-logo1 {
+	padding-top: 20px;
+}
+
 /*Section 1*/
 
 #section_one p {
@@ -371,6 +375,7 @@ footer .container .col-md-4 p {
    font-family: 'OpenSans', Arial, serif !important;	
    margin-left: 0px;
 }
+
 }
 
 /* Styles pour les smartphones */
@@ -444,6 +449,12 @@ input[type=submit]  {
   background-repeat: no-repeat;
   background-position: center;
  }
+
+.bleumarine {
+   color: #57697f !important;
+   font-family: 'OpenSans', Arial, serif !important;	
+   margin-left: 0px;
+}
 
 }
 
